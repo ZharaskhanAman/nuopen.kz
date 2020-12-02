@@ -22,7 +22,7 @@ const Email = ({ isParticipants }) => {
 
   return (
     <EmailWrapper delay={isParticipants ? 600 : 800}>
-      <EmailLink href={`mailto:${email}`}>{email}</EmailLink>
+      <EmailLink href={`https://${email}`}>{email}</EmailLink>
     </EmailWrapper>
   );
 };

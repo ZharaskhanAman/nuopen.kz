@@ -1,18 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `NU Open - Fall 2020`,
-    siteUrl: "https://nuopen.kz",
-    description: `First-ever open ICPC-style programming contest organized by Nazarbayev University.`,
-    keywords: "icpc, nu, nazarbayev university, nu open, acm icpc, nuopen",
-    email: `organizers@nuopen.kz`,
-    formLink: "https://codeforces.com/spectator/ranklist/6c0310c3e803c0bf93454870e9e6ff05",
-    author: `@ironsoul`,
+    title: `KBTU Open - Fall 2020`,
+    siteUrl: "https://kbtuopen.acm.kz",
+    description: `Regular ICPC-style programming contest organized by Kazakh-British Technical University.`,
+    keywords: "icpc, kbtu, kazakh british technical university, kbtu open, acm icpc, kbtuopen",
+    email: `t.me/kbtuopen`,
+    formLink: "https://docs.google.com/forms/d/e/1FAIpQLScQryJCGnJhvrrTbLwX1M9p-xMv-cffhcQlkv5wUu4a4GxT6w/viewform?usp=sf_link",
+    author: `@ZharaskhanAman`,
   },
   plugins: [
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-158866644-2",
+        trackingId: "G-SRMN1G4E57",
       },
     },
     `gatsby-plugin-scroll-reveal`,
@@ -30,8 +30,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `NU Open - Fall 2020`,
-        short_name: `nuopen`,
+        name: `KBTU Open - Fall 2020`,
+        short_name: `kbtuopen`,
         start_url: `/`,
         background_color: `#333644`,
         theme_color: `#333644`,

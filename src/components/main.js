@@ -8,17 +8,17 @@ import media, { sizes } from "../styles/media";
 const Main = ({ formLink }) => {
   return (
     <Body>
-      <Intro>Introducing NU Open</Intro>
-      <Big>The freshest competition</Big>
-      <Big>you'll never forget</Big>
+      <Intro>Introducing</Intro>
+      <Big>KBTU Open Fall</Big>
+      <Big>2020</Big>
       <div>
         <Description>
-          First-ever ICPC-style programming contest organized by Nazarbayev University
+          Regular ICPC-style programming contest organized by Kazakh-British Technical University
         </Description>
-        <Description>Join us on November 21, 2020 to compete for exciting prizes</Description>
+        <Description>Join us on December 13, 2020 to compete and have fun</Description>
       </div>
       <Button target="_blank" href="noopener noreferrer" href={formLink}>
-        Live Standings
+        Registration
       </Button>
     </Body>
   );

@@ -19,9 +19,9 @@ const FIRST_ROW = ["Team Name", "Surnames", "Organization", "Confirm"];
 
 const SecondPage = ({ data }) => {
   const getSheetValues = async () => {
-    const request = await fetch(`https://api.nuopen.kz/participants`);
+    const request = await fetch(`https://kbtu-worker.breathtaking.workers.dev/`);
     const sheetData = await request.json();
-
+    console.log(request);
     return sheetData;
   };
 
@@ -83,7 +83,7 @@ const SecondPage = ({ data }) => {
                   ))}
                 </Table>
                 <Note>
-                  * Please <Contact href={`mailto:${email}`}>contact us</Contact> if something
+                  * Please <Contact href={`https://t.me/zharaskhan`}>contact us</Contact> if something
                   changes.
                 </Note>
               </>

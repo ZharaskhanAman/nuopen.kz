@@ -7,7 +7,6 @@ import { ResponsiveContainer, Heading, Subheading } from "./responsive";
 import { sizes } from "../styles/media";
 import theme from "../styles/theme";
 import sr from "../utils/sr";
-import Sponsors from "../components/sponsors";
 
 const schedule = [
   {
@@ -46,12 +45,12 @@ const FAQElements = [
   {
     question: "Who have prepared the problems?",
     answer:
-      "The true feature of NU Open is that all the problems are prepared by current NU students and our legendary NU alumni.",
+      "All the problems are prepared by KBTU alumni and Daniyar Zakarin :)",
   },
   {
     question: "What are the prizes?",
     answer:
-      "We've teamed up with our main sponsor EPAM to prepare very interesting presents for you!",
+      "Top performed high school students will be awarded with KBTU grants",
   },
 ];
 
@@ -64,7 +63,7 @@ const FAQ = () => {
   return (
     <ResponsiveContainer id="faq" ref={width > 600 ? revealContainer : null}>
       <Heading>Schedule</Heading>
-      <Subheading style={{ marginBottom: "60px" }}>21 November, Remote</Subheading>
+      <Subheading style={{ marginBottom: "60px" }}>13 December, Online</Subheading>
       {/* <Subheading style={{ marginBottom: "60px" }}>11 April - NU Library</Subheading> */}
       <InfoBlock>
         <TimeWrap>
@@ -85,11 +84,7 @@ const FAQ = () => {
           </QABlock>
         ))}
       </InfoBlock>
-      <Heading style={{ marginTop: "80px" }}>Sponsors</Heading>
-      <Subheading>Love 3000 times</Subheading>
-      <InfoBlock>
-        <Sponsors />
-      </InfoBlock>
+      
     </ResponsiveContainer>
   );
 };

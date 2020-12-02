@@ -26,7 +26,7 @@ const Nav = ({ to, destination }) => {
         <MyLogo />
       </LogoLink>
       <Bar>
-        <Contact href={`mailto:${data.site.siteMetadata.email}`}>Sponsor Us</Contact>
+        <Contact href={`https://${data.site.siteMetadata.email}`}>Subscribe</Contact>
         <NavButton to={to}>{destination}</NavButton>
       </Bar>
     </Container>

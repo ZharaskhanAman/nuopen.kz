@@ -36,14 +36,14 @@ function SEO() {
       <meta property="og:type" content="website" />
       <meta property="og:url" content={siteUrl} />
       <meta property="og:site_name" content={title} />
-      <meta property="og:image" content="https://nuopen.kz/ogimage.png" />
+      <meta property="og:image" content="https://kbtuopen.acm.kz/ogimage.png" />
       <meta property="og:image:width" content="256" />
       <meta property="og:image:height" content="256" />
       <meta property="og:image:type" content="image/png" />
       <meta property="og:locale" content="en" />
       <meta itemProp="name" content={title} />
       <meta itemProp="description" content={description} />
-      <meta itemProp="image" content="https://nuopen.kz/ogimage.png" />
+      <meta itemProp="image" content="https://kbtuopen.acm.kz/ogimage.png" />
     </Helmet>
   );
 }

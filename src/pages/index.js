@@ -5,7 +5,6 @@ import Img from "gatsby-image";
 import styled from "styled-components";
 import scrollTo from "gatsby-plugin-smoothscroll";
 
-import Sponsors from "../components/sponsors";
 import Layout from "../components/layout";
 import Nav from "../components/nav";
 import FAQ from "../components/faq";
