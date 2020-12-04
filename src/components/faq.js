@@ -50,7 +50,7 @@ const FAQElements = [
   {
     question: "What are the prizes?",
     answer:
-      "Top performed high school students will be awarded with KBTU grants",
+      "Top performed team consisting of only high school students will have a chance to win KBTU grants after interview process.",
   },
 ];
 
@@ -63,7 +63,7 @@ const FAQ = () => {
   return (
     <ResponsiveContainer id="faq" ref={width > 600 ? revealContainer : null}>
       <Heading>Schedule</Heading>
-      <Subheading style={{ marginBottom: "60px" }}>6 December, Online</Subheading>
+      <Subheading style={{ marginBottom: "60px" }}>18 December, Online</Subheading>
       {/* <Subheading style={{ marginBottom: "60px" }}>11 April - NU Library</Subheading> */}
       <InfoBlock>
         <TimeWrap>
