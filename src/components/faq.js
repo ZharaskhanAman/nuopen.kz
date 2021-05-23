@@ -45,7 +45,7 @@ const FAQElements = [
   {
     question: "Who have prepared the problems?",
     answer:
-      "All the problems are prepared by KBTU alumni and Daniyar Zakarin :)",
+      "All the problems are prepared by KBTU students/alumni and Daniyar Zakarin :)",
   },
   {
     question: "What are the prizes?",
