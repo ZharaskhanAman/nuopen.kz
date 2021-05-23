@@ -18,7 +18,7 @@ const Main = ({ formLink }) => {
         <Description>Join us on May 30, 2021 to compete and have fun</Description>
       </div>
       <Button target="_blank" href="noopener noreferrer" href={formLink}>
-        Registration
+        Link to contest
       </Button>
     </Body>
   );
