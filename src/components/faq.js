@@ -10,15 +10,15 @@ import sr from "../utils/sr";
 
 const schedule = [
   {
-    time: "9:00 - 11:00",
+    time: "11:00 - 13:00",
     name: "Sending accounts",
   },
   {
-    time: "11:00 - 16:00",
+    time: "13:00 - 18:00",
     name: "Epic battle",
   },
   {
-    time: "16:00 - 17:00",
+    time: "18:00 - 19:00",
     name: "Leaderboard unfreeze",
   },
 ];
