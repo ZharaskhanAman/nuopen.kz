@@ -16,6 +16,8 @@ const Main = ({ formLink }) => {
           Regular ICPC-style programming contest organized by Kazakh-British Technical University
         </Description>
         <Description>Join us on May 30, 2021 to compete and have fun</Description>
+
+        <DescriptionRed>UPDATE: Start time was rescheduled from 11:00 to 13:00</DescriptionRed>
       </div>
       <Button target="_blank" href="noopener noreferrer" href={formLink}>
         Link to contest
@@ -89,6 +91,25 @@ const Description = styled.p`
 
   &:first-of-type {
     margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  ${media.tablet`
+    font-size: 1.6em;
+  `};
+`;
+
+const DescriptionRed = styled.p`
+  font-size: 1.3em;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  color: ${theme.colors.red};
+  opacity: 0.7;
+  line-height: 1.3em;
+
+  &:first-of-type {
+    margin-top: 0px;
     margin-bottom: 10px;
   }
 
