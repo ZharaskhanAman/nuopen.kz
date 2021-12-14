@@ -45,12 +45,12 @@ const FAQElements = [
   {
     question: "Who have prepared the problems?",
     answer:
-      "All the problems are prepared by KBTU students/alumni and Daniyar Zakarin :)",
+      "All the problems are prepared by KBTU alumni and Daniyar Zakarin :)",
   },
   {
     question: "What are the prizes?",
     answer:
-      "Top performed team consisting of only high school students will have a chance to win KBTU grants after interview process.",
+      "Special hoodies for top 6 performed teams",
   },
 ];
 
