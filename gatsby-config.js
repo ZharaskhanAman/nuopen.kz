@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `KBTU Open - Spring 2021`,
+    title: `KBTU Open - Fall 2021`,
     siteUrl: "https://kbtuopen.acm.kz",
     description: `Regular ICPC-style programming contest organized by Kazakh-British Technical University.`,
     keywords: "icpc, kbtu, kazakh british technical university, kbtu open, acm icpc, kbtuopen",
     email: `t.me/kbtuopen`,
-    formLink: "https://docs.google.com/forms/d/e/1FAIpQLScXKWf4nhXRFEV7v5Jbij8raVxoIsUdm_jQY3kYSULR_yYyuQ/viewform?usp=sf_link",
+    formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfE9vDw9KdIxWquhRDQ-iItNKNs3QDTLUrYhdIW2Ireaf-5Vw/viewform?usp=sf_link",
     author: `@ZharaskhanAman`,
   },
   plugins: [
@@ -30,7 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `KBTU Open - Spring 2021`,
+        name: `KBTU Open - Fall 2021`,
         short_name: `kbtuopen`,
         start_url: `/`,
         background_color: `#333644`,

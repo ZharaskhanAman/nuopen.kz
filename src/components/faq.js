@@ -10,11 +10,11 @@ import sr from "../utils/sr";
 
 const schedule = [
   {
-    time: "11:00 - 13:00",
+    time: "9:00 - 11:00",
     name: "Sending accounts",
   },
   {
-    time: "13:00 - 18:00",
+    time: "12:00 - 17:00",
     name: "Epic battle",
   },
   {
@@ -63,7 +63,7 @@ const FAQ = () => {
   return (
     <ResponsiveContainer id="faq" ref={width > 600 ? revealContainer : null}>
       <Heading>Schedule</Heading>
-      <Subheading style={{ marginBottom: "60px" }}>30 May, Online</Subheading>
+      <Subheading style={{ marginBottom: "60px" }}>19 December, Online</Subheading>
       {/* <Subheading style={{ marginBottom: "60px" }}>11 April - NU Library</Subheading> */}
       <InfoBlock>
         <TimeWrap>
