@@ -63,7 +63,7 @@ const FAQ = () => {
   return (
     <ResponsiveContainer id="faq" ref={width > 600 ? revealContainer : null}>
       <Heading>Schedule</Heading>
-      <Subheading style={{ marginBottom: "60px" }}>19 December, Online</Subheading>
+      <Subheading style={{ marginBottom: "60px" }}>15 May, KBTU</Subheading>
       {/* <Subheading style={{ marginBottom: "60px" }}>11 April - NU Library</Subheading> */}
       <InfoBlock>
         <TimeWrap>
