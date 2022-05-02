@@ -9,16 +9,16 @@ const Main = ({ formLink }) => {
   return (
     <Body>
       <Intro>Introducing</Intro>
-      <Big>KBTU Open Fall</Big>
-      <Big>2021</Big>
+      <Big>KBTU Open Spring</Big>
+      <Big>2022</Big>
       <div>
         <Description>
           Regular ICPC-style programming contest organized by Kazakh-British Technical University
         </Description>
-        <Description>Join us on December 19, 2021 to compete and have fun</Description>
+        <Description>Join us on May 15, 2022 to compete and have fun</Description>
       </div>
       <Button target="_blank" href="noopener noreferrer" href={formLink}>
-        Link to contest
+        Link to registration
       </Button>
     </Body>
   );
