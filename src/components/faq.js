@@ -50,7 +50,7 @@ const FAQElements = [
   {
     question: "What are the prizes?",
     answer:
-      "Special hoodies for top 6 performed teams",
+      "Special t-shirts for top 6 performed teams by <b><a href='https://khangroup.kz/' target=\"_blank\" >Khan Group</a></b> <br> Cash prizes for top 3 performed teams by <b><a href='https://khangroup.kz/' target=\"_blank\" >Khan Group</a></b> <br> <b><a href='https://1fit.app/' target=\"_blank\" >1Fit</a></b> membership for top 3 performed teams",
   },
 ];
 
