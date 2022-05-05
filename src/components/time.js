@@ -10,7 +10,7 @@ const Time = ({ time, name, number }) => {
     <Container>
       <p>{time}</p>
       <p>{name}</p>
-      <h3>0{number}.</h3>
+      <h3>{number}</h3>
     </Container>
   );
 };

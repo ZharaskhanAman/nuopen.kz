@@ -15,7 +15,7 @@ const Main = ({ formLink }) => {
         <Description>
           Regular ICPC-style programming contest organized by Kazakh-British Technical University
         </Description>
-        <Description>Join us on May 15, 2022 to compete and have fun</Description>
+        <Description>Join us on May 15, 2022 ONSITE to compete and have fun</Description>
       </div>
       <Button target="_blank" href="noopener noreferrer" href={formLink}>
         Link to registration

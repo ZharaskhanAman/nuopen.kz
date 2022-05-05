@@ -10,20 +10,50 @@ import sr from "../utils/sr";
 
 const schedule = [
   {
-    time: "9:00 - 11:00",
-    name: "Sending accounts",
+    number: "0.",
+    time: "10:00 - 11:30",
+    name: "Sending accounts, seating arragment",
   },
   {
+    number: "1.",
     time: "12:00 - 17:00",
     name: "Epic battle",
   },
   {
+    number: "2.",
     time: "18:00 - 19:00",
-    name: "Leaderboard unfreeze",
+    name: "Closing ceremony",
+  },
+];
+
+const prizes = [
+  {
+    number: "1.",
+    place: "1-st place",
+    prize: "210 000 tenge from Khan Group + 1Fit subscription",
+  },
+  {
+    number: "2.",
+    place: "2-nd place",
+    prize: "150 000 tenge from Khan Group + 1Fit subscription",
+  },
+  {
+    number: "3.",
+    place: "3-rd place",
+    prize: "90 000 tenge from Khan Group + 1Fit subscription",
+  },
+  {
+    number: "1-6.",
+    place: "1-6 place",
+    prize: "Unique T-shirts from Khan Group",
   },
 ];
 
 const FAQElements = [
+  {
+    question: "Where?",
+    answer: "Competition will be held in KBTU address Tole-bi 59, Almaty. Entrance from Abylaykhan street side.",
+  },
   {
     question: "What the heck is ICPC?",
     answer:
@@ -31,7 +61,7 @@ const FAQElements = [
   },
   {
     question: "Who are eligible to participate?",
-    answer: "The entire competition will be held online and everyone is welcome to participate!",
+    answer: "The entire competition will be held both onsite and online and everyone is welcome to participate!",
   },
   {
     question: "How many people should be in a team?",
@@ -45,12 +75,7 @@ const FAQElements = [
   {
     question: "Who have prepared the problems?",
     answer:
-      "All the problems are prepared by KBTU alumni and Daniyar Zakarin :)",
-  },
-  {
-    question: "What are the prizes?",
-    answer:
-      "Special t-shirts for top 6 performed teams by <b><a href='https://khangroup.kz/' target=\"_blank\" >Khan Group</a></b> <br> Cash prizes for top 3 performed teams by <b><a href='https://khangroup.kz/' target=\"_blank\" >Khan Group</a></b> <br> <b><a href='https://1fit.app/' target=\"_blank\" >1Fit</a></b> membership for top 3 performed teams",
+      "All the problems are prepared by KBTU students and alumni",
   },
 ];
 
@@ -68,10 +93,21 @@ const FAQ = () => {
       <InfoBlock>
         <TimeWrap>
           {schedule.map((element, index) => (
-            <Time time={element.time} name={element.name} number={index} key={index} />
+            <Time time={element.time} name={element.name} number={element.number} key={index} />
           ))}
         </TimeWrap>
       </InfoBlock>
+      
+      <Heading>Prizes</Heading>
+      <Subheading style={{ marginBottom: "60px" }}>Only onsite participants are eligible for prizes.</Subheading>
+      <InfoBlock>
+        <TimeWrap style={{"flex-flow":"column"}}>
+          {prizes.map((element, index) => (
+            <Time time={element.place} name={element.prize} number={element.number} key={index} />
+          ))}
+        </TimeWrap>
+      </InfoBlock>
+
       <Heading style={{ marginTop: "-30px" }}>FAQ</Heading>
       <Subheading style={{ marginBottom: "-20px" }}>Frequently Asked Questions</Subheading>
       <InfoBlock>
