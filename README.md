@@ -2,7 +2,7 @@
   <img alt="Logo" src="./src/images/badge.png" width="550" />
 </div>
 <h1 align="center">
-  NU Open 😍
+  KBTU Open 😍
 </h1>
 <p align="center">
    Built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
