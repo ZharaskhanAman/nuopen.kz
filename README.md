@@ -20,13 +20,13 @@
 1. Clone the project
 
    ```sh
-   git clone https://github.com/ironsoul0/nuopen.kz.git
+   git clone https://github.com/ZharaskhanAman/nuopen.kz.git kbtuopen.kz
    ```
 
 1. Install the dependencies
 
    ```sh
-   cd nuopen.kz
+   cd kbtuopen.kz
    npm install
    ```
 
