@@ -15,13 +15,15 @@ import media from "../styles/media";
 import theme from "../styles/theme";
 import cache from "../utils/cache";
 
-const FIRST_ROW = ["Team Name", "Surnames", "Organization", "Confirm"];
+const FIRST_ROW = ["Team Name", "Surnames", "Organization", "Confirm", "Onsite"];
+const IS_ONSITE = true;
+
 
 const SecondPage = ({ data }) => {
   const getSheetValues = async () => {
     const request = await fetch(`https://kbtu-worker.breathtaking.workers.dev/`);
     const sheetData = await request.json();
-    console.log(request);
+    console.log(sheetData);
     return sheetData;
   };
 
@@ -55,7 +57,24 @@ const SecondPage = ({ data }) => {
   }, []);
 
   const finishedLoading = !!(participants && done);
+  var onlineTeams = undefined;
+  var onsiteTeams = undefined;
+  if (participants) {
+    onlineTeams = participants.filter(team => team[4].includes("Online")).length;
+    onsiteTeams = participants.filter(team => team[4].includes("Onsite")).length;
 
+    const onsitePersonCount = participants
+      .filter(team => team[4].includes("Onsite"))
+      .map(team => team[1].split(',').length)
+      .reduce((a, b) => a + b, 0);
+    console.log("OnsiteCnt = " + onsitePersonCount);
+
+    const onlinePersonCount = participants
+      .filter(team => team[4].includes("Online"))
+      .map(team => team[1].split(',').length)
+      .reduce((a, b) => a + b, 0);
+    console.log("OnlineCnt = " + onlinePersonCount);
+  }
   return (
     <Layout
       showSecondary={finishedLoading}
@@ -68,7 +87,7 @@ const SecondPage = ({ data }) => {
           <Container>
             <div>
               <Heading>Participants</Heading>
-              <Subheading>Teams ready to flex</Subheading>
+              <Subheading>Teams ready to flex {!!onsiteTeams ? ": " + onsiteTeams + " onsite teams and " + onlineTeams + " online teams" : ""}</Subheading>
             </div>
             {participants.length > 0 ? (
               <>
