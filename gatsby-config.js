@@ -5,7 +5,7 @@ module.exports = {
     description: `Regular ICPC-style programming contest organized by Kazakh-British Technical University.`,
     keywords: "icpc, kbtu, kazakh british technical university, kbtu open, acm icpc, kbtuopen",
     email: `t.me/kbtuopen`,
-    formLink: "https://docs.google.com/forms/d/e/1FAIpQLSc7M5gbhn1PG_qjbukJ5vgIyrIOEIVXG1MqVgb2Y7tlM2msnA/viewform?usp=sf_link",
+    formLink: "https://ejudge.kbtuopen.kz/cgi-bin/new-client?contest_id=3",
     author: `@ZharaskhanAman`,
   },
   plugins: [
